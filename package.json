@@ -1,0 +1,26 @@
+{
+  "name": "@sbrr/auth-package",
+  "version": "0.0.0",
+  "description": "It is a npm package which will help us to use authentication out of the box (Server-Part)",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SBRakeshRath/sbrr-auth-package.git"
+  },
+  "author": "S B Rakesh Rath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SBRakeshRath/sbrr-auth-package/issues"
+  },
+  "homepage": "https://github.com/SBRakeshRath/sbrr-auth-package#readme",
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  }
+}
